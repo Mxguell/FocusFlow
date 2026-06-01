@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Técnica Pomodoro - FocusFlow</title>
+
+    <link rel="stylesheet" href="../Estilos/style.css">
+    <link rel="stylesheet" href="../Estilos/responsive.css">
+    <link rel="stylesheet" href="../Estilos/flexboxgrid.min.css">
+    <link rel="stylesheet" href="../Estilos/animate.min.css">
+
+    <link rel="icon" type="image/png" href="../Imagenes/iconos/favicon.png">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <!-- HEADER -->
+
+        <header class="row middle-xs header">
+
+            <div class="col-xs-12 col-md-4">
+
+                <div class="logo">
+
+                    <h1 class="animate__animated animate__fadeInLeft">
+                        FocusFlow
+                    </h1>
+
+                </div>
+
+            </div>
+
+            <div class="col-xs-12 col-md-8">
+
+                <nav>
+
+                    <ul>
+
+                        <li><a href="../index.html">Inicio</a></li>
+
+                        <li><a href="organizacion.html">Organización</a></li>
+
+                        <li><a href="tecnicas.html">Técnicas</a></li>
+
+                        <li><a href="estadisticas.html">Estadísticas</a></li>
+
+                        <li><a href="pomodoro.html">Pomodoro</a></li>
+
+                        <li><a href="contacto.html">Contacto</a></li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        </header>
+
+        <!-- FIN HEADER -->
+
+
+
+        <!-- HERO -->
+
+        <section class="row middle-xs hero">
+
+            <div class="col-xs-12 col-md-6">
+
+                <div class="hero-texto animate__animated animate__fadeInLeft">
+
+                    <h1 style="margin-left: -10px; margin-top: -200px;">
+                        Técnica Pomodoro
+                    </h1>
+
+                    <p>
+                        El método Pomodoro consiste en estudiar durante
+                        intervalos de tiempo cortos y concentrados para
+                        mejorar el rendimiento y evitar distracciones.
+                    </p>
+
+                    <p>
+                        La técnica más utilizada es:
+                        25 minutos de estudio y 5 minutos de descanso.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-xs-12 col-md-6">
+
+                <div class="hero-imagen3 animate__animated animate__fadeInRight">
+
+                    <img src="../Imagenes/fondos/hero5-bg.jpg" alt="Pomodoro">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- FIN HERO -->
+
+
+
+        <!-- TEMPORIZADOR -->
+
+        <section class="row center-xs animate__animated animate__zoomIn">
+
+            <div class="col-xs-12 col-md-6">
+
+                <article class="card">
+
+                    <h2>
+                        Temporizador
+                    </h2>
+
+                    <br>
+
+                    <h1 id="temporizador" style="font-size: 90px; color: #3b82f6;">
+
+                        25:00
+
+                    </h1>
+
+                    <br>
+
+                    <button class="boton" onclick="iniciarPomodoro()">
+                        Iniciar
+                    </button>
+
+                    <button class="boton" onclick="pausarPomodoro()">
+                        Pausar
+                    </button>
+
+                    <button class="boton" onclick="reiniciarPomodoro()">
+                        Reiniciar
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- FIN TEMPORIZADOR -->
+
+
+
+        <!-- CONSEJOS -->
+
+        <section class="row center-xs tarjetas animate__animated animate__fadeInUp">
+
+            <div class="col-xs-12">
+
+                <h2>
+                    Consejos de Concentración
+                </h2>
+
+            </div>
+
+
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+
+                <article class="card">
+
+                    <h3>
+                        Sin Móvil
+                    </h3>
+
+                    <p>
+                        Aleja el teléfono para evitar distracciones constantes.
+                    </p>
+
+                </article>
+
+            </div>
+
+
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+
+                <article class="card">
+
+                    <h3>
+                        Espacio Limpio
+                    </h3>
+
+                    <p>
+                        Mantén tu escritorio ordenado y preparado para estudiar.
+                    </p>
+
+                </article>
+
+            </div>
+
+
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+
+                <article class="card">
+
+                    <h3>
+                        Descansos
+                    </h3>
+
+                    <p>
+                        Descansa 5 minutos cada 25 minutos para mantener la concentración.
+                    </p>
+
+                </article>
+
+            </div>
+
+
+
+            <div class="col-xs-12 col-sm-6 col-md-3">
+
+                <article class="card">
+
+                    <h3>
+                        Iluminación
+                    </h3>
+
+                    <p>
+                        Utiliza una zona con buena luz para evitar fatiga visual.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- FIN CONSEJOS -->
+
+
+
+        <!-- FOOTER -->
+
+        <footer class="row center-xs footer">
+
+            <div class="col-xs-12">
+
+                <p>
+                    FocusFlow - Proyecto Final Lenguaje de Marcas
+                </p>
+
+                <p>
+                    Miguel Ángel Zayas Claros © 2026
+                </p>
+
+            </div>
+
+        </footer>
+
+        <!-- FIN FOOTER -->
+
+    </div>
+
+    <script src="../Scripts/pomodoro.js"></script>
+
+</body>
+
+</html>
